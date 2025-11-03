@@ -11,4 +11,10 @@ describe('Triangle', function() {
     const t = new Triangle(0, 10);
     expect(t.getArea()).to.equal(0);
   });
+
+  it('gère les nombres décimaux (ex: 3.5 x 2)', function() {
+    const t = new Triangle(3.5, 2);
+    expect(t.getArea()).to.equal(3.5 * 2 / 2); // 3.5
+  });
+
 });
