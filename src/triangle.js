@@ -6,8 +6,8 @@ class triangle {
     getArea() {
         return this.base * this.height / 2;
     }
-}   
+}
 
 module.exports = {
     triangle: triangle
-}
+};
